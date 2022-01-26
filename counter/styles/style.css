@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #DEEAFE;
+}
+
+button {
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.counter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.lower_one-button,
+.add_one-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 4rem;
+  color: #8AB0F6;
+  -webkit-transition: 250ms ease;
+  transition: 250ms ease;
+}
+
+.lower_one-button:hover,
+.add_one-button:hover {
+  color: #3A78EF;
+}
+
+.current_number-container {
+  font-size: 3rem;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #3A78EF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.current_number-numbers_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 300ms ease-in;
+  transition: 300ms ease-in;
+}
+
+.current_number {
+  display: block;
+  height: 80px;
+}
+
+.total_number_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+/*# sourceMappingURL=style.css.map */
